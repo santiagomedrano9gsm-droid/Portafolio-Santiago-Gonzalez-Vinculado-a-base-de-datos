@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Museo Digital de Santiago Gonzalez</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">Museo Digital</div>
+    <ul class="nav-links">
+      <li><a href="#artista">El Artista</a></li>
+      <li><a href="#cimientos">Los Cimientos</a></li>
+      <li><a href="#herramientas">Las Herramientas</a></li>
+      <li><a href="#exposiciones">Otro Oficio</a></li>
+      <li><a href="#recorrido">Mi Recorrido</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="entrada" id="entrada">
+    <div class="particles" id="particles"></div>
+    <div class="entrada-content">
+      <h1 class="fade-in">PORTAFOLIO DIGITAL PERSONAL</h1>
+      <h2 class="fade-in">SANTIAGO GONZALEZ</h2>
+      <p class="fade-in">"Una colección de experiencias, aprendizajes y proyectos"</p>
+      <a href="#artista" class="btn-entrar fade-in">ENTRAR AL MUSEO</a>
+    </div>
+  </section>
+
+  <section class="sala sala-artista" id="artista">
+    <article class="cuadro">
+      <div class="marco">
+        <img src="img/perfil.jpg" alt="Foto de Santiago Gonzalez">
+      </div>
+      <div class="texto-sala">
+        <h2>Sala 01 · El Artista</h2>
+        <h3>SANTIAGO GONZALEZ</h3>
+        <p>Soy estudiante de informática apasionado por la tecnología, el desarrollo web y la creación de soluciones digitales. Me interesa aprender nuevas herramientas, mejorar mis habilidades y transformar ideas en proyectos.</p>
+      </div>
+    </article>
+  </section>
+
+  <section class="sala oscura sala-cimientos" id="cimientos">
+    <h2>Sala 02 · Los Cimientos</h2>
+    <div class="archivo">
+      <article class="ficha">
+        <h3>Formación</h3>
+        <ul>
+          <li>Escuela Nro 23 Kar-Yen - Primaria terminada primeros 3 años</li>
+          <li>Escuela Nro 7 El Abrazo de Maiupu - Primaria terminada los ultimos 3 años</li>
+          <li>Escuela Dr. Ernesto Guevara — Secundaria técnica en curso.</li>
+        </ul>
+      </article>
+      <article class="ficha">
+        <h3>Cursos</h3>
+        <ul>
+          <li>Capacitación en Mirgor</li>
+          <li>Seminario Balencia Barbería</li>
+          <li>Formación básica en barbería</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="sala sala-herramientas" id="herramientas">
+    <h2>Sala 03 · Las Herramientas</h2>
+    <div class="herramientas-grid">
+      <article class="pieza">
+        <div class="pieza-icono"><img src="img/html5.png" alt="HTML"></div>
+        <div class="pieza-texto">
+          <h3>HTML</h3>
+          <p>Lenguaje utilizado para construir estructuras web</p>
+        </div>
+      </article>
+      <article class="pieza">
+        <div class="pieza-icono"><img src="img/css.png" alt="CSS"></div>
+        <div class="pieza-texto">
+          <h3>CSS</h3>
+          <p>El diseño que transforma ideas en experiencias</p>
+        </div>
+      </article>
+      <article class="pieza">
+        <div class="pieza-icono"><img src="img/javascript.png" alt="JavaScript"></div>
+        <div class="pieza-texto">
+          <h3>JavaScript</h3>
+          <p>La lógica que da vida e interacción a la web</p>
+        </div>
+      </article>
+      <article class="pieza">
+        <div class="pieza-icono"><img src="img/hardware.png" alt="Hardware"></div>
+        <div class="pieza-texto">
+          <h3>Hardware</h3>
+          <p>Conocimiento de redes, PC y soporte técnico</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="sala oscura sala-exposiciones horizontal-section" id="exposiciones">
+    <div class="horizontal-sticky">
+      <h2>Sala 04 · Otro Oficio</h2>
+      <article class="obra-unica">
+        <div class="obra-header">
+          <img src="img/proyectos.png" alt="Cortes de pelo" class="obra-imagen-principal">
+          <div class="obra-info">
+            <h3>Corte de Pelo</h3>
+            <p>Además de la tecnología, tengo formación básica en barbería y me gusta cortar el pelo. Esta es una muestra de algunos cortes que hice. Cualquier consulta escribime al privado</p>
+          </div>
+        </div>
+        <h4 class="galeria-titulo">Deslizá para ver la galería</h4>
+        <div class="galeria-cortes" id="galeriaTrack">
+          <img src="img/corte1.jpg" class="corte-foto" alt="Corte 1">
+          <img src="img/corte2.jpg" class="corte-foto" alt="Corte 2">
+          <video src="img/corte3.mov" class="corte-foto" autoplay muted loop></video>
+          <video src="img/corte4.mov" class="corte-foto" autoplay muted loop></video>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="sala sala-recorrido" id="recorrido">
+    <h2>Sala 05 · Mi Recorrido</h2>
+    <div class="linea-tiempo">
+      <article class="evento">
+        <h3>Barbero Profesional</h3>
+        <p class="fecha">Actualidad</p>
+        <p>Cortes modernos y clasicos, servicio exclusivo con un fade fresco y preciso.</p>
+      </article>
+      <article class="evento">
+        <h3>Venta independiente </h3>
+        <p class="fecha">2023/2026</p>
+        <p>Atención al cliente, organización de stock, gestión y venta de productos.</p>
+      </article>
+      <article class="evento">
+        <h3>Juicy Burger</h3>
+        <p class="fecha">2025/2026</p>
+        <p>Preparación, organización del espacio, limpieza y trabajo en equipo.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="sala oscura sala-contacto" id="contacto">
+    <h2>Sala Final · Contacto</h2>
+    <table class="tabla-contacto">
+      <tr><td>Email</td><td>santiagomedrano9gsm@icloud.com</td></tr>
+      <tr><td>LinkedIn</td><td>https://www.linkedin.com/in/santiago-gonzalez-244461428/</td></tr>
+      <tr><td>GitHub</td><td>https://github.com/JefesitoPrime</td></tr>
+    </table>
+    <form class="form-contacto" id="formulario">
+      <input type="text" id="Nombre" placeholder="Tu nombre" required>
+      <input type="email" id="Correo" placeholder="Tu email" required>
+      <textarea id="mensaje" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Santiago Gonzalez · Museo Digital Personal</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
